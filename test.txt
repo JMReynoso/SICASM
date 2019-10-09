@@ -1,0 +1,9 @@
+         start 100
+         lda   first
+         resw  11
+         sub   dn
+dn       resw  15
+         add   dn
+first    resw  8
+         clear T
+         end

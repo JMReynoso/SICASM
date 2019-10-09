@@ -1,0 +1,11 @@
+Addr.	OC		Label	Inst	Operand
+--------------------------------------------------------------------------
+100				START	100	
+100	032054			LDA	first	
+103				RESW	11	
+124	1F2000			SUB	dn	
+127			dn	RESW	15	
+154	1B2FD0			ADD	dn	
+157			first	RESW	8	
+16F	B450			CLEAR	T	
+171				END		
